@@ -1,0 +1,7 @@
+In the following places pk fonts are handled. Maybe somewhere there you need to add working with absolute and relative paths.
+
+This prohibited to use pk fonts:
+dvipdfm-x/pkfont.c "As a workaround, we drop a suffix if it exists."
+
+This prohibited to use scaled pk fonts:
+dvipdfm-x/pdfdev.c "And the extension ".pfb" prohibits to call mktexpk with right"
