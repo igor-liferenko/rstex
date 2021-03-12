@@ -1,1 +1,5 @@
 svn checkout https://github.com/TeX-Live/texlive-source/trunk/texk/dvipdfm-x
+
+This bug prohibits compilation of ~/time/ and ex-14-5.mf:
+https://tug.org/pipermail/dvipdfmx/2021-February/000237.html
+https://tug.org/pipermail/dvipdfmx/2021-March/000239.html
