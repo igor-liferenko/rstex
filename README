@@ -1,4 +1,4 @@
-To get new version (until the change is in packages):
+To get new version (until the change is in packages (except the bug below, see https://tug.org/pipermail/dvipdfmx/2021-March/000241.html how to check when packaged version will be OK)):
   rm -fr dvipdfm-x; svn checkout https://github.com/TeX-Live/texlive-source/trunk/texk/dvipdfm-x
 then
   cp -r dvipdfm-x/* /usr/local/src/<texlive-binaries source>/texk/dvipdfm-x/
