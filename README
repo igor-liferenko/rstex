@@ -1,5 +1,9 @@
-svn checkout https://github.com/TeX-Live/texlive-source/trunk/texk/dvipdfm-x
+To get new version (until the change is in packages):
+  rm -fr dvipdfm-x; svn checkout https://github.com/TeX-Live/texlive-source/trunk/texk/dvipdfm-x
+then
+  cp -r dvipdfm-x/* /usr/local/src/<texlive-binaries source>/texk/dvipdfm-x/
+then compile and dpkg -i texlive-binaries_*.deb
 
-This bug prohibits compilation of ~/time/ and ex-14-5.mf:
+This bug prohibits TeXing of time.w and ex-14-5.tex:
 https://tug.org/pipermail/dvipdfmx/2021-February/000237.html
 https://tug.org/pipermail/dvipdfmx/2021-March/000239.html
